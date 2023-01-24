@@ -3,7 +3,7 @@
 
 * First Step
 ```
-sudo su && apt update -y && apt upgrade && apt install wget -y
+sudo su && apt --fix-missing update -y && apt update && apt upgrade -y && apt install -y wget && apt install curl -y && update-grub
 ```
 * Second Step
 ```
