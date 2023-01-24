@@ -139,19 +139,21 @@ service sshd restart
 # Type In Your New Password
 read -p "Please Input an New Password For Root : " Pass
 
-
 # Get New Password
 echo -e "$Pass\n$Pass\n"|passwd root &> /dev/null
+clear
 
 # Information Goes To The Root User
 MYIP=$(wget -qO- ifconfig.co);
 echo "
 save this information to login to your vps
 ==========================================
-   IP ADDRESS : ${MYIP}
-   USERNAME   : root
-   PASSWORD   : ${Pass}
+          IP ADDRESS : ${MYIP}
+          USERNAME   : root
+          PASSWORD   : ${Pass}
 =========================================="
-sleep 5
-
+echo ""
+echo ""
+echo "reboot the server in another 10 seconds!!!"
+sleep 10
 rm exroot.sh
