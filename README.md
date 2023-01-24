@@ -1,4 +1,4 @@
-# Simple Script Change to Root User
+# Simple Script Change to Root User (applies to all linux)
 
 
 * First Step
