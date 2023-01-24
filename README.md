@@ -7,5 +7,5 @@ sudo su && apt --fix-missing update -y && apt update && apt upgrade -y && apt in
 ```
 * Second Step
 ```
-wget https://raw.githubusercontent.com/kurosewu/root/main/exroot.sh && bash exroot.sh
+wget https://raw.githubusercontent.com/kurosewu/exroot/main/exroot.sh && bash exroot.sh
 ```
