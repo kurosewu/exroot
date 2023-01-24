@@ -148,9 +148,9 @@ MYIP=$(wget -qO- ifconfig.co);
 echo "
 save this information to login to your vps
 ==========================================
-          IP ADDRESS : ${MYIP}
-          USERNAME   : root
-          PASSWORD   : ${Pass}
+   IP ADDRESS : ${MYIP}
+   USERNAME   : root
+   PASSWORD   : ${Pass}
 =========================================="
 echo ""
 echo ""
