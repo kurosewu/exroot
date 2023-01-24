@@ -1,11 +1,11 @@
 # Simple Script Change to Root User
 
 
-* Update repo dulu
+* First Step
 ```
 sudo su && apt update -y && apt upgrade && apt install wget -y
 ```
-
+* Second Step
 ```
-sudo su && wget https://raw.githubusercontent.com/kurosewu/root/main/exroot.sh && bash exroot.sh
+wget https://raw.githubusercontent.com/kurosewu/root/main/exroot.sh && bash exroot.sh
 ```
