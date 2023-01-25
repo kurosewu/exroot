@@ -146,14 +146,14 @@ clear
 # Information Goes To The Root User
 MYIP=$(wget -qO- ifconfig.co);
 echo "
-save this information to login to your vps
+Save this Information to login to your vps
 ==========================================
-   IP ADDRESS : ${MYIP}
-   USERNAME   : root
-   PASSWORD   : ${Pass}
+   Ip Address : ${MYIP}
+   Username   : root
+   Password   : ${Pass}
 =========================================="
 echo ""
-echo ""
-echo "reboot the server in another 10 seconds!!!"
+echo "Reboot The Server in Another 10 Seconds!!!"
 sleep 10
 rm exroot.sh
+reboot
