@@ -3,7 +3,7 @@
 
 * First Step
 ```
-sudo su && cd
+sudo su
 ```
 * Second Step
 ```
